@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh; 
+    background-color: #f0f2f5;
+    display: flex;
+}
+.firstDiv {
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.secondDiv {
+    width: 40%;
+    height: 100%;
+}
+.firstDiv h1 {
+    color: blue;
+    font-size: 60px;    
+    position: absolute;
+    top: 200px;
+    left: 100px
+}
+.firstDiv p {
+    position: absolute;
+    top: 270px;
+    left: 100px;
+    font-size: 30px;
+}
+.secondDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondDiv .drop-shadow-xl{
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    border-radius: 3%;
+    padding: 10px 15px;
+}
